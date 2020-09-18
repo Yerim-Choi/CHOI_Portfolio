@@ -334,7 +334,7 @@ ul,li,a{
 #about_page #about_background{
   position: absolute;
   width: 100%;height:430px;
-  background-image: url(/images/about_background.png);
+  background-image: url(../images/about_background.png);
   background-position: center center;
   background-repeat: no-repeat;
 }
