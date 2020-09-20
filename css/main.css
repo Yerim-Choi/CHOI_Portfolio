@@ -46,15 +46,24 @@ ul,li,a{
     animation-duration: leaner;  
     animation-fill-mode: forwards;
 }
-#home_page #page_inner #text_area p.title { 
+#home_page #page_inner #text_area p.title a{ 
+  cursor: pointer;
   font-family: 'Archivo Black', sans-serif;
-  margin-top: 10px; font-size: 20px; font-weight: 700;
+  display: block;;
+  margin-top: 20px; font-size: 20px; font-weight: 700;
+  color:#fff;
     /* 애니메이션 이름 */
     animation-name: top1;
     animation-duration:1.5s;
     animation-duration: leaner;  
     animation-fill-mode: forwards;
 }
+#home_page #page_inner #text_area p.title:hover a{
+  color:#333;
+}
+
+
+
 #home_page #page_inner #text_area p.name { 
   font-family: 'Archivo Black', sans-serif;
   margin-top: 50px; font-size: 75px; text-decoration: underline;
@@ -173,6 +182,10 @@ ul,li,a{
 #project_page #project_page_left ul.project_list li a{
     color:#fff;font-weight: 900;
 }
+#project_page #project_page_left ul.project_list li:hover a{
+  color:#18181A;transition: all 0.7s;
+}
+
 
 #project_page #project_page_left ul.project_list li.select a{
   color:#18181A;
@@ -394,7 +407,7 @@ ul,li,a{
   width: 1400px; height:500px;
   margin: 0 auto;
   /* border:1px solid red; */
-  margin-bottom: 300px;
+  margin-bottom: 100px;
 }
 
 #about_section_skill .skill_left {
@@ -435,7 +448,7 @@ p.skil_name span{
 
 
 
-p.skil_name:hover span {
+p.skil_name:hover {
   transition: all 0.5s;
-  background-color: #8C9BB7;
+   color: #8C9BB7;
 }
